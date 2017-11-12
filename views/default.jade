@@ -1,0 +1,33 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Give It Forward
+    link(href='/css/style.css', rel='stylesheet')
+    link(href='/css/bootstrap.min.css', rel='stylesheet')
+    link(rel='shortcut icon', href='/ico/favicon.png')
+  body
+    .container-fluid
+      .row
+        .col-sm-6.leftcol
+          .absoluteCenter
+            img.className#logo(src="/img/maroon_shadow.png")
+            #titleheading Give It Forward
+            a(href="http://womenscenter.utah.edu/")
+              | contact us&nbsp;
+            |
+            a(href="http://womenscenter.utah.edu/")
+              |  about us
+        .col-sm-6.rightcol
+          .absoluteCenter
+            .btn-group
+              a.input.leftroundbtn.winebtn(href='/starter') Log In
+              a.input.rightroundbtn.greybtn(href='/signin') Sign Up
+            input.round(type='text', placeholder='Email address')
+            input.round(type='password', placeholder='Password')
+            a.input.round.winebtn(href='http://womenscenter.utah.edu/') Log In
+            a.btn.round.winebtn(href='http://womenscenter.utah.edu/') Log In
+        hr
+        .footer
+          p © GiveItForward 2017
+  include partials/scripts

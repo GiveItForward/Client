@@ -1,0 +1,17 @@
+extend ../layout1
+block content
+  h1 Profile Info
+  input.round(type='text', placeholder='user bio')
+  input.round(type='text', placeholder='tags')
+  input.round(type='password', placeholder='password')
+  input.round(type='password', placeholder='verify password')
+  | Are you an organization?
+  input(type='checkbox')
+  |  yes
+  input(type='checkbox')
+  |  no
+  a.btn.round.winebtn(href='/request_feed') Add Info to Profile
+  a(href="http://womenscenter.utah.edu/")
+    | contact us&nbsp;
+  a(href='/request_feed') 
+    | fill out later

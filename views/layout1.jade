@@ -1,0 +1,29 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Give It Forward
+    link(href='/css/style.css', rel='stylesheet')
+    link(href='/css/bootstrap.min.css', rel='stylesheet')
+    link(rel='shortcut icon', href='/ico/favicon.png')
+  body
+    .container-fluid
+      .row
+        .col-sm-6.leftcol
+          .absoluteCenter
+            img#logo(src="/img/maroon_shadow.png")
+            #titleheading Give It Forward
+            a(href="http://womenscenter.utah.edu/")
+              | contact us&nbsp;
+            |
+            a(href="http://womenscenter.utah.edu/")
+              |  about us
+            hr
+            .footer
+              p © GiveItForward 2017    
+        .col-sm-6.rightcol
+          .absoluteCenter            
+            block content
+      .row
+        hey there
+  include partials/scripts

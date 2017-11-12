@@ -1,0 +1,146 @@
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: skyblue !important;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*a:active {
+    color: white;
+}*/
+
+#belowbanner {
+   margin-top: 90px
+}
+
+#titleheading {
+   font-size: 34pt;
+   color:white;
+}
+
+#requestfeed {
+  height: 100%;
+  width: 100%;
+}
+
+.round{
+    border-radius: 25px;
+    padding: 10px;
+    width: 445px;
+    margin: 5px;
+}
+
+.roundsmallbtn{
+    border-radius: 25px;
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+}
+
+.roundsmalltext{
+    border-radius: 25px;
+    padding: 10px;
+    width: 200px;
+    margin: 5px;
+}
+
+.bio{
+  height:100px;
+  width:445px;
+}
+
+.checkmargin{
+  margin: 10px;
+}
+
+.absoluteCenter{
+    display:inline-block;
+    position:absolute;
+    text-align:center;
+    top:50%;
+    left:50%;
+    /*-ms-transform:translate(-50%,-50%);*/
+    /*-moz-transform:translate(-50%,-50%);*/
+    /*-webkit-transform:translate(-50%,-50%);*/
+    transform:translate(-50%,-50%);
+}
+
+.logo > .absoluteCenter{
+  width:250px;
+  height:250px;
+}
+
+.profilepic > .absoluteCenter{
+  width:100px;
+  height:100px;
+}
+
+.leftroundbtn{
+    border-radius: 25px 0 0 25px;
+    padding: 10px;
+    width: 200px;
+}
+
+.rightroundbtn{
+    border-radius: 0 25px 25px 0;
+    padding: 10px 40px;
+    width: 200px;
+}
+
+.winebtn{
+    background-color: #760709;
+    color:white;
+}
+
+.greybtn{
+    background-color: dimgrey;
+    color:white;
+}
+
+.leftcol{
+    color:white;
+    /*padding-top: 150px;*/
+    background-color: dimgrey;
+    height: 100vh;
+}
+
+.rightcol{
+    color: black;
+    background-color: white;
+    height: 100vh;
+    padding-top: 25px;
+}
+
+.rightcol-signup > .absoluteCenter{
+    color: black;
+    background-color: white;
+    height: 100vh;
+    /*width: 70vh;*/
+    padding-top: 25px;
+    /*overflow-y: scroll;*/
+    /*overflow-x: hidden;*/
+}
+
+.dropdownMenuButton{
+  position: relative;
+}
+
+/*.footer {
+  position: relative;
+  margin-top: -100px;
+  height: 100px;
+  clear:both;
+  padding-top:20px;
+}*/

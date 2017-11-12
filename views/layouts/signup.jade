@@ -1,0 +1,15 @@
+extend ../layout1
+block content
+  .btn-group
+    a.input.leftroundbtn.greybtn(href='/index') Log In
+    a.input.rightroundbtn.winebtn(href='/signup') Sign Up 
+  input.round(type='text', placeholder='username')
+  input.round(type='text', placeholder='email')
+  input.round(type='password', placeholder='password')
+  input.round(type='password', placeholder='verify password')
+  | Are you an organization? 
+  input(type='checkbox') 
+  |  yes
+  input(type='checkbox') 
+  |  no 
+  a.btn.round.winebtn(href='/edit_profile') Create Account
