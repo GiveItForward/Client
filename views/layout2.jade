@@ -1,0 +1,23 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Give It Forward
+    link(href='/css/bootstrap.min.css', rel='stylesheet')
+    link(href='/css/style.css', rel='stylesheet')
+    link(rel='shortcut icon', href='/ico/favicon.png')
+  body
+    .container-fluid
+      .row
+        .col-sm-3.leftcol
+          .row
+            img#logomini(src='/img/maroon_shadow.png')
+          .row
+            img#profilepicmini(src="/img/smiley.png")
+            br
+            | &nbsp CS_Nerd
+          .row
+            img#notifications(src='/img/notifications.png')
+        .col-sm-9.rightcol           
+            block content
+  include partials/scripts

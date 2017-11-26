@@ -1,17 +1,21 @@
 extend ../layout1
 block content
   h1 Profile Info
-  input.round(type='text', placeholder='user bio')
-  input.round(type='text', placeholder='tags')
-  input.round(type='password', placeholder='password')
-  input.round(type='password', placeholder='verify password')
+  .container
+    .row
+      .col-sm-6
+        img(src="/img/smiley.png", width="80%", height="90%")
+      .col-sm-6  
+        a.roundsmallbtn.btn.winebtn.mainbtn(href='/request_feed') upload image
+        a.roundsmallbtn.btn.winebtn(href='/request_feed') choose image
+  input.round.bio(type='text', placeholder='user bio')
+  a.btn.round.winebtn(href="#") 
+    | Tags
   | Are you an organization?
   input(type='checkbox')
   |  yes
   input(type='checkbox')
   |  no
-  a.btn.round.winebtn(href='/request_feed') Add Info to Profile
-  a(href="http://womenscenter.utah.edu/")
-    | contact us&nbsp;
-  a(href='/request_feed') 
+  a.round.btn.winebtn.mainbtn(href='/request_feed') Add Info to Profile
+  a(href='/request_feed')
     | fill out later
