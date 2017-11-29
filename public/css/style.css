@@ -27,15 +27,20 @@ body{
    color:white;
 }
 
+#titleheading2 {
+   font-size: 24pt;
+   color:black;
+}
+
 #requestfeed {
   height: 100%;
   width: 100%;
 }
 
 #logomini {
-  width: 25px;
-  height: 25px;
-  margin: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
 }
 
 #profilepicmini {
@@ -44,9 +49,18 @@ body{
   margin: 10px 5px 10px 50px;
 }
 
-#notifications {
+#note {
   width: 100%;
-  height: 90%;
+  margin: 0 2px 0 2px;
+}
+
+#note2 {
+  width: 100%;
+  margin: 0 2px 0 2px;
+}
+
+#notetext {
+  margin: 20px 0 0 15%;
 }
 
 .btn {
@@ -60,10 +74,24 @@ body{
     margin: 10px;
 }
 
-.roundsmallbtn{
+.roundmediumbtn{
     border-radius: 25px;
     padding: 5px;
     width: 200px;
+    margin: 5px;
+}
+
+.roundsmallbtn{
+    border-radius: 25px;
+    padding: 5px;
+    width: 100px;
+    margin: 5px;
+}
+
+.roundminibtn{
+    border-radius: 25px;
+    padding: 5px;
+    width: 50px;
     margin: 5px;
 }
 
@@ -119,6 +147,27 @@ body{
     width: 200px;
 }
 
+.leftsmallroundbtn{
+    border-radius: 25px 0 0 25px;
+    padding: 5px;
+    margin: 10px 0px 40px;
+    width: 100px;
+}
+
+.middlesmallroundbtn{
+    border-radius: 0;
+    padding: 5px;
+    margin: 10px 0px 40px;
+    width: 100px;
+}
+
+.rightsmallroundbtn{
+    border-radius: 0 25px 25px 0;
+    padding: 5px;
+    margin: 10px 0px 40px;
+    width: 100px;
+}
+
 .winebtn{
     background-color: #760709;
     color:white;
@@ -157,6 +206,19 @@ body{
     /*overflow-x: hidden;*/
 }
 
+.scroll{
+  overflow-y: scroll;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #404040;
+}
+
+.padding-top{
+  padding-top: 5px;
+}
+
 .footer{
-  margin-top: 100px;
+  margin-top: 10%;
+  margin-bottom: 0;
 }

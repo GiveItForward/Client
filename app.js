@@ -38,7 +38,10 @@ app.get('/', function (req, res) {
 app.get('/index', function(req,res) { res.render("index")});
 app.get('/signup', function(req,res) { res.render("layouts/signup")});
 app.get('/request_feed', function(req,res) { res.render("layouts/request_feed")});
+app.get('/orgs', function(req,res) { res.render("layouts/orgs")});
+app.get('/my_profile', function(req,res) { res.render("layouts/my_profile")});
 app.get('/edit_profile', function(req,res) { res.render("layouts/edit_profile")});
+app.get('/new_request', function(req,res) { res.render("layouts/new_request")});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
