@@ -8,24 +8,28 @@ html(lang='en')
     link(rel='shortcut icon', href='/ico/favicon.png')
   body
     .container-fluid
-      .row
-        .col-md-3.leftcol.scroll
-          .row.border-bottom
-            img#profilepicmini(src="/img/smile.png")
-            br
-            | &nbsp Welcome, CS_Nerd
-          .row
-            //- img#notifications(src='/img/notifications.png')
-            #notetext
-              | today
-            img#note(src='/img/note1.png')
-            #notetext
-              | last 7 days
-            img#note(src='/img/note2.png')
-            #notetext
-              | all time
-            img#note(src='/img/note3.png')
-            img#note2(src='/img/note3.png')
-        .col-md-9.rightcol.scroll  
-          block content
+      block content
   include partials/scripts
+
+
+
+  //- .row
+  //-   .col-md-3.leftcol.scroll
+  //-     .row.border-bottom
+  //-       img#profilepicmini(src="/img/smile.png")
+  //-       br
+  //-       | &nbsp Welcome, CS_Nerd
+  //-     .row
+  //-       //- img#notifications(src='/img/notifications.png')
+  //-       #notetext
+  //-         | today
+  //-       img#note(src='/img/note1.png')
+  //-       #notetext
+  //-         | last 7 days
+  //-       img#note(src='/img/note2.png')
+  //-       #notetext
+  //-         | all time
+  //-       img#note(src='/img/note3.png')
+  //-       img#note2(src='/img/note3.png')
+  //-   .col-md-9.rightcol.scroll  
+  //-     block content

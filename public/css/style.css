@@ -28,8 +28,10 @@ body{
 }
 
 #titleheading2 {
-   font-size: 24pt;
+   font-size: 30pt;
+   font-weight: bold;
    color:black;
+   margin-top: 20px;
 }
 
 #requestfeed {
@@ -38,9 +40,9 @@ body{
 }
 
 #logomini {
-  width: 50px;
-  height: 50px;
-  margin: 0 5px;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
 }
 
 #profilepicmini {
@@ -74,11 +76,33 @@ body{
     margin: 10px;
 }
 
+.roundrequest{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    width: 90%;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.requestuser{
+  margin: 20px 10px 5px 20px;
+}
+
 .roundmediumbtn{
     border-radius: 25px;
     padding: 5px;
     width: 200px;
     margin: 5px;
+}
+
+.roundmediumbtn2{
+    border-radius: 25px;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
 }
 
 .roundsmallbtn{
@@ -90,7 +114,7 @@ body{
 
 .roundminibtn{
     border-radius: 25px;
-    padding: 5px;
+    padding: 10px;
     width: 50px;
     margin: 5px;
 }
@@ -149,21 +173,21 @@ body{
 
 .leftsmallroundbtn{
     border-radius: 25px 0 0 25px;
-    padding: 5px;
+    padding: 10px;
     margin: 10px 0px 40px;
     width: 100px;
 }
 
 .middlesmallroundbtn{
     border-radius: 0;
-    padding: 5px;
+    padding: 10px;
     margin: 10px 0px 40px;
     width: 100px;
 }
 
 .rightsmallroundbtn{
     border-radius: 0 25px 25px 0;
-    padding: 5px;
+    padding: 10px;
     margin: 10px 0px 40px;
     width: 100px;
 }
@@ -189,11 +213,25 @@ body{
     height: 100vh;
 }
 
+.bottom-row{
+    /*padding-top: 150px;*/
+    background-color: dimgrey;
+    width: 100vw;
+}
+
 .rightcol{
     color: black;
     background-color: white;
     height: 100vh;
     padding-top: 25px;
+}
+
+.top-row{
+    color: black;
+    background-color: white;
+    /*height: 100vh;*/
+    padding-top: 25px;
+    padding-left: 5px;
 }
 
 .rightcol-signup > .absoluteCenter{
@@ -215,7 +253,66 @@ body{
 }
 
 .padding-top{
-  padding-top: 5px;
+  padding-top: 10px;
+}
+
+.margin-top{
+  margin-top: 15px;
+}
+
+.requestusername{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.amount{
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.requestmessage{
+  margin-left: 10%;
+  margin-top: 0;
+}
+
+.tags{
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.checkmark{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.roundgivebtn{
+    background-color: lightgrey;
+    border-color: dimgrey;
+    border-radius: 20px;
+    padding: 10px;
+    height: 65px;
+    width: 80px;
+    margin-bottom: 40%;
+}
+
+.givebtnicon{
+  width: 90%;
+  height: 100%;
+}
+
+.homebtn{
+  background-color: lightgrey;
+  border-radius: 0;
+  /*padding: 10px;*/
+  width: 100%;
+}
+
+.greybackground{
+  background-color: lightgrey;
 }
 
 .footer{

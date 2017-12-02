@@ -42,6 +42,10 @@ app.get('/orgs', function(req,res) { res.render("layouts/orgs")});
 app.get('/my_profile', function(req,res) { res.render("layouts/my_profile")});
 app.get('/edit_profile', function(req,res) { res.render("layouts/edit_profile")});
 app.get('/new_request', function(req,res) { res.render("layouts/new_request")});
+app.get('/paypal', function(req,res) { res.render("layouts/paypal")});
+
+app.get('/org_home', function(req,res) { res.render("layouts/org_home")});
+app.get('/admin_home', function(req,res) { res.render("layouts/admin_home")});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
