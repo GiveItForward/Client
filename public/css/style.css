@@ -28,14 +28,18 @@ body{
 }
 
 #titleheading2 {
-   font-size: 30pt;
-   font-weight: bold;
+   font-size: 28pt;
    color:black;
    margin-top: 20px;
 }
 
 #requestfeed {
   height: 100%;
+  width: 100%;
+}
+
+#newrequest {
+  height: 100vh;
   width: 100%;
 }
 
@@ -245,6 +249,7 @@ body{
 }
 
 .scroll{
+  height: 100%;
   overflow-y: scroll;
 }
 
@@ -274,8 +279,8 @@ body{
 }
 
 .requestmessage{
-  margin-left: 10%;
-  margin-top: 0;
+  margin: 0 5% 2% 10%;
+  /*margin-top: 0;*/
 }
 
 .tags{
