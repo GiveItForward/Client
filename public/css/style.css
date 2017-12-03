@@ -91,10 +91,6 @@ body{
     margin-top: 10px;
 }
 
-.requestuser{
-  margin: 20px 10px 5px 20px;
-}
-
 .roundmediumbtn{
     border-radius: 25px;
     padding: 5px;
@@ -265,11 +261,9 @@ body{
   margin-top: 15px;
 }
 
-.requestusername{
-  font-weight: bold;
-  font-size: 24px;
+.requestmargin{
+  margin: 2%;
 }
-
 .amount{
   font-weight: bold;
   font-size: 36px;
@@ -278,13 +272,23 @@ body{
   margin-right: 20px;
 }
 
+.requestuser{
+  /*margin: 3% 10px 5px 20px;*/
+}
+
+.requestusername{
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 5%;
+}
+
 .requestmessage{
-  margin: 0 5% 2% 10%;
+  margin: 2% 5% 2% 5%;
   /*margin-top: 0;*/
 }
 
 .tags{
-  margin-left: 20%;
+  margin-left: 10%;
   margin-top: 5%;
 }
 
